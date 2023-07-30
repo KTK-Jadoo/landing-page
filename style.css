@@ -1,0 +1,181 @@
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+}
+
+.header .left-link {
+    font-weight: bold;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+a {
+    color: #E5E7EB;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.intro {
+    background-color: #1F2937;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 40px;
+}
+
+
+.intro img {
+    margin-right: 15%;
+    width: 25%;
+    height: auto;
+    border-radius: 25px;
+    box-shadow: 2px 2px 4px rgb(20, 20, 20);
+}
+
+.intro .subtext {
+    margin-left: 15%;
+    flex: auto;
+}
+
+.top {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    padding: 5px;
+}
+
+.bottom {
+    font-size: 18px;
+    padding: 5px;
+    color: #E5E7EB;
+
+}
+
+.intro button {
+    margin: 15px;
+    padding: 5px 20px;
+    background-color: #3882F6;
+    font-weight: 700;
+    border-radius: 8px;
+    color: #F9FAF8;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+.tit-le {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    padding-bottom: 50px;
+
+}
+
+.img-array {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.tahoe img {
+    width: 70%;
+    height: auto;
+    border-radius: 10px;
+
+}
+
+.pano img {
+    width: 70%;
+    height: auto;
+    border-radius: 10px;
+
+}
+
+.ewen img {
+    width: 70%;
+    height: auto;
+    border-radius: 10px;
+
+}
+
+.tahoe, .pano, .ewen {
+    display :flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    font-style: oblique;
+
+} 
+
+.four {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    padding: 50px;
+    width: 500px;
+    height: auto;
+    font-style: italic;
+    font-size: 24px;
+    color: #1F2937;
+}
+
+.author {
+    align-self: flex-end;
+    margin-right: 200px;
+    font-weight: 800;
+    padding-bottom: 50px;
+    font-style: oblique;
+}
+
+.modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    width: 500px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #e5e7eb;
+    padding: 25px 50px;
+}
